@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>우리 태우 잘하조</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/따봉.jpg" rel="icon">
+  <link href="assets/img/따봉.jpg" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyResume - v4.9.2
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  
+  <style>
+.map_wrap, .map_wrap * {margin:0;padding:0;font-family:'Malgun Gothic',dotum,'돋움',sans-serif;font-size:12px;}
+.map_wrap a, .map_wrap a:hover, .map_wrap a:active{color:#000;text-decoration: none;}
+.map_wrap {position:relative;width:100%;height:600px;}
+#menu_wrap {position:absolute;top:0;left:0;bottom:0;width:250px;margin:10px 0 30px 10px;padding:5px;overflow-y:auto;background:rgba(255, 255, 255, 0.7);z-index: 1;font-size:12px;border-radius: 10px;}
+.bg_white {background:#fff;}
+#menu_wrap hr {display: block; height: 1px;border: 0; border-top: 2px solid #5F5F5F;margin:3px 0;}
+#menu_wrap .option{text-align: center;}
+#menu_wrap .option p {margin:10px 0;}  
+#menu_wrap .option button {margin-left:5px;}
+#placesList li {list-style: none;}
+#placesList .item {position:relative;border-bottom:1px solid #888;overflow: hidden;cursor: pointer;min-height: 65px;}
+#placesList .item span {display: block;margin-top:4px;}
+#placesList .item h5, #placesList .item .info {text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+#placesList .item .info{padding:10px 0 10px 55px;}
+#placesList .info .gray {color:#8a8a8a;}
+#placesList .info .jibun {padding-left:26px;background:url(https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/places_jibun.png) no-repeat;}
+#placesList .info .tel {color:#009900;}
+#placesList .item .markerbg {float:left;position:absolute;width:36px; height:37px;margin:10px 0 0 10px;background:url(https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/marker_number_blue.png) no-repeat;}
+#placesList .item .marker_1 {background-position: 0 -10px;}
+#placesList .item .marker_2 {background-position: 0 -56px;}
+#placesList .item .marker_3 {background-position: 0 -102px}
+#placesList .item .marker_4 {background-position: 0 -148px;}
+#placesList .item .marker_5 {background-position: 0 -194px;}
+#placesList .item .marker_6 {background-position: 0 -240px;}
+#placesList .item .marker_7 {background-position: 0 -286px;}
+#placesList .item .marker_8 {background-position: 0 -332px;}
+#placesList .item .marker_9 {background-position: 0 -378px;}
+#placesList .item .marker_10 {background-position: 0 -423px;}
+#placesList .item .marker_11 {background-position: 0 -470px;}
+#placesList .item .marker_12 {background-position: 0 -516px;}
+#placesList .item .marker_13 {background-position: 0 -562px;}
+#placesList .item .marker_14 {background-position: 0 -608px;}
+#placesList .item .marker_15 {background-position: 0 -654px;}
+#pagination {margin:10px auto;text-align: center;}
+#pagination a {display:inline-block;margin-right:10px;}
+#pagination .on {font-weight: bold; cursor: default;color:#777;}
+
+.color-btn{
+	width : 15px; height : 15px; border: 10px; border-color : black; border-radius: 50%; margin-top:15px;}
+.color-btn:hover{border-color:white;}
+
+button:hover{border-color:white;}
+
+a:hover{color:skyblue}
+a:active{color:red}
+a:link{color:blue}
+</style>
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>What is Bootstrap</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Canvas</span></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>SVG</span></a></li>
+        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Map</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>우리 태우 잘하조!</h1>
+      <p>Team members <span class="typed" data-typed-items="Kim Jae-Hong, Kim Chan-Su, Kim Tae-Woo, Do Hyun-Jung, Park Ji-Young"></span></p>
+      <br>
+      <div>
+        <a href="https://github.com/kukudas97" target='_blank'><i class="bx bxl-github"></i><span>김재홍</span></a>
+        <a href="https://github.com/kimchansooo" target='_blank'><i class="bx bxl-github"></i><span>김찬수</span></a>
+        <a href="https://github.com/TWKIM0709" target='_blank'><i class="bx bxl-github"></i><span>김태우</span></a>
+        <a href="https://github.com/Domaya" target='_blank'><i class="bx bxl-github"></i><span>도현정</span></a>
+        <a href="https://github.com/jiyoung1111" target='_blank'><i class="bx bxl-github"></i><span>박지영</span></a>
+      </div>
+      <div>
+      <br>
+      	<a href="http://192.168.30.93:8090/WebBasic_Javascript/TeamProject_1_1/MainAPI.html" class="w3-button w3-circle" style="background-color: rgba(255, 0, 0, 0.1); color:aqua">V</a>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+  
+      <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>What is Bootstrap</h2>
+          <p>부트스트랩은 반응형이며 모바일 우선인 웹프로젝트 개발을 위한 가장 인기있는 HTM, CSS, JS 프레임워크입니다.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="assets/img/apple-touch-icon.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>CSS &amp; JavaScript Framework</h3>
+            <p class="fst-italic">
+              Bootstrap은 빠르고 간편한 반응형 웹 디자인(responsive web design)을 위한 open-source front-end framework이다.
+              HTML, CSS, JavaScript로 만들어진 typography, 입력 양식(forms), 버튼, 테이블, 탭, 내비게이션, 모달, 이미지 캐러셀(image carousel) 등을 제공하며 추가적으로 JavaScript plugin들을 제공한다.
+              <br>
+              Twitter의 Mark Otto와 Jacob Thornton이 개발한 오픈 소스로 2011년 공개되었다.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Release Date:</strong> <span>19 August 2011</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <a href="https://getbootstrap.com" target="_blank"><span>https://getbootstrap.com/</span></a></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Author:</strong> <span>Mark Otto, Jacob Thornton</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>11</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Platform:</strong> <span>Web Browser</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>GitHub:</strong><a href="https://github.com/twbs/Bootstrap" target="_blank"><span>https://github.com/twbs/Bootstrap</span></a></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Latest Version:</strong> <span>v5.2.0</span></li>
+                </ul>
+              </div>
+            </div>
+            	<br>
+            	<h3>Advantages</h3>
+            	<br>
+            	<ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Easy to use:</strong> <span>HTML과 CSS에 대한 기본 지식이 있다면 쉽게 사용할 수 있다.</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Responsive features:</strong> <span>스마트폰, 테블릿, 데스크탑에 적합한 responsive CSS를 제공한다.</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Mobile-first approach:</strong><span>Bootstrap 3부터 mobile-first style을 기본으로 지원한다.</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Browser compatibility:</strong> <span>대부분의 브라우저(Chrome, Firefox, Internet Explorer, Safari, Opera)를 지원한다.</span></li>
+                </ul>
+                <br>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Canvas</h2>
+          <p>Canvas element는 웹페이지에서 그래픽을 그릴 때 사용하는 컨테이너이다.</p>
+        </div>
+
+        <div align='center' >
+		<canvas id='canvas' width='1200' height='650'
+			style="border: 1px solid black; background-color: white"></canvas>
+	</div>
+	브러쉬 크기<input id="input" type="number" min="0" max="100" value="1"></input>
+        <button class="color-btn" onclick="colorChange('black')" style="background-color: black;"></button>
+        <button class="color-btn" onclick="colorChange('red')" style="background-color: red; "></button>
+        <button class="color-btn" onclick="colorChange('orange')" style="background-color: orange; "></button>
+        <button class="color-btn" onclick="colorChange('yellow')" style="background-color: yellow;"></button>
+        <button class="color-btn" onclick="colorChange('green')" style="background-color: green;"></button>
+        <button class="color-btn" onclick="colorChange('blue')" style="background-color: blue;"></button>
+        <button class="color-btn" onclick="colorChange('indigo')" style="background-color: indigo;"></button>
+        <button class="color-btn" onclick="colorChange('purple')" style="background-color: purple;"></button>
+        <button class="color-btn" onclick="colorChange('skyblue')" style="background-color: skyblue;"></button>
+        <button class="color-btn" onclick="colorChange('violet')" style="background-color: violet;"></button>
+        <button onclick="colorChange('white')">지우개</button>
+        <button onclick="clearAll()">전체지우기</button>
+	<div class='control' align='center'>
+	</div>
+	<script>
+	let pos = {
+	        drawable : false,
+	        x : -1,
+	        y : -1,
+	    };
+	    let canvas = document.getElementById('canvas');
+	    let ctx = canvas.getContext('2d');
+	    let rect = canvas.getBoundingClientRect();  // 터치 스크린
+
+	// 전체 지우기
+	    function clearAll(){
+	        ctx.clearRect(0, 0, canvas.width, canvas.height);
+	    }
+	 
+	// 스타일 추가
+	    input.oninput = function(){
+	        ctx.lineWidth = input.value;
+	    }
+	    ctx.lineCap = 'round';
+	    ctx.lineJoin = 'round';
+
+	    function colorChange(color){
+	        ctx.strokeStyle = color;
+	    } 
+
+	    canvas.addEventListener("mousedown", listener);
+	    canvas.addEventListener("mousemove", listener);
+	    canvas.addEventListener("mouseup", listener);
+	    canvas.addEventListener("mouseout", listener);
+	    
+	    /// 터치 스크린
+	    canvas.addEventListener("touchstart", listener);
+	    canvas.addEventListener("touchmove", listener);
+	    canvas.addEventListener("touchend", listener);
+	    
+	    function listener(e){
+	        switch(e.type){
+	            case "mousedown":
+	                drawStart(e);
+	                break;
+	            case "mousemove":
+	                if(pos.drawable){
+	                    draw(e);
+	                }
+	                break;
+	            case "mouseout":
+	            case "mouseup":
+	                drawEnd();
+	                break;
+	            case "touchstart":
+	                touchStart(e);
+	                break;
+	            case "touchmove":
+	                if(pos.drawable)
+	                    touch(e);
+	                break;
+	            case "touchend":
+	                drawEnd();
+	                break;
+	            default:
+	        }
+	    }
+	    
+	    function drawStart(e){
+	        pos.drawable = true;
+	        ctx.beginPath();
+	        pos.x = e.offsetX;
+	        pos.y = e.offsetY;
+	        ctx.moveTo(pos.x, pos.y);
+	    }
+	    function touchStart(e){
+	        pos.drawable = true;
+	        ctx.beginPath();
+	        pos.x = e.touches[0].pageX - rect.left
+	        pos.y = e.touches[0].pageY - rect.top
+	        ctx.moveTo(pos.x, pos.y);
+	    }
+	    function draw(e){
+	        ctx.lineTo(e.offsetX, e.offsetY);
+	        pos.x = e.offsetX;
+	        pos.y = e.offsetY;
+	        ctx.stroke();
+	    }
+	    function touch(e){
+	        ctx.lineTo(e.touches[0].pageX - rect.left, e.touches[0].pageY - rect.top);
+	        pos.x = e.touches[0].pageX - rect.left;
+	        pos.y = e.touches[0].pageY - rect.top;
+	        ctx.stroke();
+	    }
+	    function drawEnd(){
+	        pos.drawable = false;
+	        pos.x = -1;
+	        pos.y = -1;
+	    }
+	</script>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>SVG</h2>
+          <p>픽셀을 이용하여 그림을 그리는 png,jpg파일들과 다르게 벡터를 기반으로 이미지를 표현하여 크기조절에 따른 깨짐이 적고 용량이 작아 웹에서 자주 활용된다.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">고낭</li>
+              <li data-filter=".filter-card">코난</li>
+              <li data-filter=".filter-web">코고낭</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/SVG/고낭_adobe_express.svg" class="img-fluid" alt="" width="100%" hight="100%">
+              <div class="portfolio-info">
+                <h4>아구! 코시려!</h4>
+                <p>솜방망이 보고가세요~</p>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/SVG/고코낭_adobe_express.svg" class="img-fluid" alt="" width="100%" hight="100%">
+              <div class="portfolio-info">
+                <h4>우리 사이 좋아요~</h4>
+                <p>맨날 싸우는건 안비밀!</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/SVG/코난_adobe_express.svg" class="img-fluid" alt="" width="100%" hight="100%">
+              <div class="portfolio-info">
+                <h4>내가 코브라인가?</h4>
+                <p>여긴 내 지정석!</p>
+                </div>
+            </div>
+          </div>
+		</div>
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Map</h2>
+          <p>Kakao에서 코드를 가지고 와서 구현</p>
+        </div>
+
+        <div class="map_wrap">
+   				<div id="map" style="width:100%;height:100%;position:relative;overflow:hidden;"></div>
+
+				    <div id="menu_wrap" class="bg_white">
+				        <div class="option">
+				            <div>
+				                <form onsubmit="searchPlaces(); return false;">
+				                    키워드 : <input type="text" value="혜화역 맛집" id="keyword" size="10"> 
+				                    <button type="submit">검색하기</button> 
+				                </form>
+				            </div>
+				        </div>
+				        <hr>
+				        <ul id="placesList"></ul>
+				        <div id="pagination"></div>
+				    </div>
+				</div>
+				
+				<div><a href="https://map.kakao.com/">카카오맵으로 이동하기</a></div>
+				
+				
+				<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=65b7710328e493c3df7c5f36d7e488bd&libraries=services"></script>
+				<script>
+				// 마커를 담을 배열입니다
+				var markers = [];
+				
+				var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+				    mapOption = {
+				        center: new kakao.maps.LatLng(37.583814, 126.999872), // 지도의 중심좌표
+				        level: 2 // 지도의 확대 레벨
+				    };  
+				
+				// 지도를 생성합니다    
+				var map = new kakao.maps.Map(mapContainer, mapOption); 
+				
+				// 장소 검색 객체를 생성합니다
+				var ps = new kakao.maps.services.Places();  
+				
+				// 검색 결과 목록이나 마커를 클릭했을 때 장소명을 표출할 인포윈도우를 생성합니다
+				var infowindow = new kakao.maps.InfoWindow({zIndex:1});
+				
+				// 키워드로 장소를 검색합니다
+				searchPlaces();
+				
+				// 키워드 검색을 요청하는 함수입니다
+				function searchPlaces() {
+				
+				    var keyword = document.getElementById('keyword').value;
+				
+				    if (!keyword.replace(/^\s+|\s+$/g, '')) {
+				        alert('키워드를 입력해주세요!');
+				        return false;
+				    }
+				
+				    // 장소검색 객체를 통해 키워드로 장소검색을 요청합니다
+				    ps.keywordSearch( keyword, placesSearchCB); 
+				}
+				
+				// 장소검색이 완료됐을 때 호출되는 콜백함수 입니다
+				function placesSearchCB(data, status, pagination) {
+				    if (status === kakao.maps.services.Status.OK) {
+				
+				        // 정상적으로 검색이 완료됐으면
+				        // 검색 목록과 마커를 표출합니다
+				        displayPlaces(data);
+				
+				        // 페이지 번호를 표출합니다
+				        displayPagination(pagination);
+				
+				    } else if (status === kakao.maps.services.Status.ZERO_RESULT) {
+				
+				        alert('검색 결과가 존재하지 않습니다.');
+				        return;
+				
+				    } else if (status === kakao.maps.services.Status.ERROR) {
+				
+				        alert('검색 결과 중 오류가 발생했습니다.');
+				        return;
+				
+				    }
+				}
+				
+				// 검색 결과 목록과 마커를 표출하는 함수입니다
+				function displayPlaces(places) {
+				
+				    var listEl = document.getElementById('placesList'), 
+				    menuEl = document.getElementById('menu_wrap'),
+				    fragment = document.createDocumentFragment(), 
+				    bounds = new kakao.maps.LatLngBounds(), 
+				    listStr = '';
+				    
+				    // 검색 결과 목록에 추가된 항목들을 제거합니다
+				    removeAllChildNods(listEl);
+				
+				    // 지도에 표시되고 있는 마커를 제거합니다
+				    removeMarker();
+				    
+				    for ( var i=0; i<places.length; i++ ) {
+				
+				        // 마커를 생성하고 지도에 표시합니다
+				        var placePosition = new kakao.maps.LatLng(places[i].y, places[i].x),
+				            marker = addMarker(placePosition, i), 
+				            itemEl = getListItem(i, places[i]); // 검색 결과 항목 Element를 생성합니다
+				
+				        // 검색된 장소 위치를 기준으로 지도 범위를 재설정하기위해
+				        // LatLngBounds 객체에 좌표를 추가합니다
+				        bounds.extend(placePosition);
+				
+				        // 마커와 검색결과 항목에 mouseover 했을때
+				        // 해당 장소에 인포윈도우에 장소명을 표시합니다
+				        // mouseout 했을 때는 인포윈도우를 닫습니다
+				        (function(marker, title) {
+				            kakao.maps.event.addListener(marker, 'mouseover', function() {
+				                displayInfowindow(marker, title);
+				            });
+				
+				            kakao.maps.event.addListener(marker, 'mouseout', function() {
+				                infowindow.close();
+				            });
+				
+				            itemEl.onmouseover =  function () {
+				                displayInfowindow(marker, title);
+				            };
+				
+				            itemEl.onmouseout =  function () {
+				                infowindow.close();
+				            };
+				        })(marker, places[i].place_name);
+				
+				        fragment.appendChild(itemEl);
+				    }
+				
+				    // 검색결과 항목들을 검색결과 목록 Element에 추가합니다
+				    listEl.appendChild(fragment);
+				    menuEl.scrollTop = 0;
+				
+				    // 검색된 장소 위치를 기준으로 지도 범위를 재설정합니다
+				    map.setBounds(bounds);
+				}
+				
+				// 검색결과 항목을 Element로 반환하는 함수입니다
+				function getListItem(index, places) {
+				
+				    var el = document.createElement('li'),
+				    itemStr = '<span class="markerbg marker_' + (index+1) + '"></span>' +
+				                '<div class="info">' +
+				                '   <h5>' + places.place_name + '</h5>';
+				
+				    if (places.road_address_name) {
+				        itemStr += '    <span>' + places.road_address_name + '</span>' +
+				                    '   <span class="jibun gray">' +  places.address_name  + '</span>';
+				    } else {
+				        itemStr += '    <span>' +  places.address_name  + '</span>'; 
+				    }
+				                 
+				      itemStr += '  <span class="tel">' + places.phone  + '</span>' +
+				                '</div>';           
+				
+				    el.innerHTML = itemStr;
+				    el.className = 'item';
+				
+				    return el;
+				}
+				
+				// 마커를 생성하고 지도 위에 마커를 표시하는 함수입니다
+				function addMarker(position, idx, title) {
+				    var imageSrc = 'https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/marker_number_blue.png', // 마커 이미지 url, 스프라이트 이미지를 씁니다
+				        imageSize = new kakao.maps.Size(36, 37),  // 마커 이미지의 크기
+				        imgOptions =  {
+				            spriteSize : new kakao.maps.Size(36, 691), // 스프라이트 이미지의 크기
+				            spriteOrigin : new kakao.maps.Point(0, (idx*46)+10), // 스프라이트 이미지 중 사용할 영역의 좌상단 좌표
+				            offset: new kakao.maps.Point(13, 37) // 마커 좌표에 일치시킬 이미지 내에서의 좌표
+				        },
+				        markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imgOptions),
+				            marker = new kakao.maps.Marker({
+				            position: position, // 마커의 위치
+				            image: markerImage 
+				        });
+				
+				    marker.setMap(map); // 지도 위에 마커를 표출합니다
+				    markers.push(marker);  // 배열에 생성된 마커를 추가합니다
+				
+				    return marker;
+				}
+				
+				// 지도 위에 표시되고 있는 마커를 모두 제거합니다
+				function removeMarker() {
+				    for ( var i = 0; i < markers.length; i++ ) {
+				        markers[i].setMap(null);
+				    }   
+				    markers = [];
+				}
+				
+				// 검색결과 목록 하단에 페이지번호를 표시는 함수입니다
+				function displayPagination(pagination) {
+				    var paginationEl = document.getElementById('pagination'),
+				        fragment = document.createDocumentFragment(),
+				        i; 
+				
+				    // 기존에 추가된 페이지번호를 삭제합니다
+				    while (paginationEl.hasChildNodes()) {
+				        paginationEl.removeChild (paginationEl.lastChild);
+				    }
+				
+				    for (i=1; i<=pagination.last; i++) {
+				        var el = document.createElement('a');
+				        el.href = "#";
+				        el.innerHTML = i;
+				
+				        if (i===pagination.current) {
+				            el.className = 'on';
+				        } else {
+				            el.onclick = (function(i) {
+				                return function() {
+				                    pagination.gotoPage(i);
+				                }
+				            })(i);
+				        }
+				
+				        fragment.appendChild(el);
+				    }
+				    paginationEl.appendChild(fragment);
+				}
+				
+				// 검색결과 목록 또는 마커를 클릭했을 때 호출되는 함수입니다
+				// 인포윈도우에 장소명을 표시합니다
+				function displayInfowindow(marker, title) {
+				    var content = '<div style="padding:5px;z-index:1;">' + title + '</div>';
+				
+				    infowindow.setContent(content);
+				    infowindow.open(map, marker);
+				}
+				
+				 // 검색결과 목록의 자식 Element를 제거하는 함수입니다
+				function removeAllChildNods(el) {   
+				    while (el.hasChildNodes()) {
+				        el.removeChild (el.lastChild);
+				    }
+				}
+				</script>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Introductions</h2>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/재홍.jpg" class="testimonial-img" alt="">
+                <h3>Kim Jae-Hong</h3>
+                <h4>Group Member</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  최소한 1인분은 하는 개발자가 되겠습니다!<br>(우리 태우 잘하조...)
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/찬수.jpg" class="testimonial-img" alt="">
+                <h3>Kim Chan-Su</h3>
+                <h4>Group Member</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  코인 노래방 파트너 구합니다. 010-5060-4914 연락주세요.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/태우.jpg" class="testimonial-img" alt="">
+                <h3>Kim Tae-Woo</h3>
+                <h4>Group Member</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  CSS하기 싫은 사람
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/현정.jpg" class="testimonial-img" alt="">
+                <h3>Do Hyun-Jung</h3>
+                <h4>Group Member</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  바닥부터 올라가는 중인 전공자
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/지영.jpg" class="testimonial-img" alt="">
+                <h3>Park Ji-Yung</h3>
+                <h4>Group Member</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  해도해도 모르겠어요...
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>프사</h3>
+      <p>프로젝트 4조의 줄인말이자 카카오톡 프사를 연상케하여 이번 프로젝트에 얼굴이 되겠다는 의미</p>
+      
+      <div class="copyright">
+        &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: [license-url] -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
